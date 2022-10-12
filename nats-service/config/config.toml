@@ -1,0 +1,15 @@
+port = ":5000"
+loglevel = "info"
+
+[nats]
+    serverID = "test-cluster"
+    clientID = "tester"
+    natsUrl = "nats://nats-streaming:4222"
+    port = "4222"
+
+[db]
+    host = "db"
+    port = "5432"
+    username = "Artem"
+    password = "lholdo"
+    database = "natsservice"
