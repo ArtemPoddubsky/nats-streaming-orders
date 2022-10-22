@@ -14,7 +14,7 @@ func main() {
 		logrus.Fatalln(err)
 	}
 
-	file, err := os.OpenFile("materials/model.json", os.O_RDONLY, 0755)
+	file, err := os.OpenFile("materials/model.json", os.O_RDONLY, 0600)
 
 	if err != nil {
 		logrus.Fatalln(err)
